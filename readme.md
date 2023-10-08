@@ -11,6 +11,7 @@ Fibonacci series benchmark for several different languages, compilers and interp
 | 4.89 | GCC (MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders) 13.2.0 | gcc fibo.c | C | 546 | 91669 |
 | 4.95 | V 0.4.2 | v fibo.v | V | 443 | 682496 |
 | 5.25 | FreeBASIC 1.10.0 | fbc fibofb.bas | BASIC | 464 | 32768 |
+| 5.72 | Julia 1.9.3 | julia fibo.jl | Julia | 417 | - |
 | 6.99 | Rust 1.73.0 | rustc fibo.rs | Rust | 469 | 164352 |
 | 7.68 | DMD64 D Compiler 2.105.2-dirty | dmd fibo.d | D | 485 | 554496 |
 | 7.86 | Zig 0.11.0 | zig build-exe fibo.zig | Zig | 571 | 656896 |
