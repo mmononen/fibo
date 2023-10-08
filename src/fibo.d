@@ -1,3 +1,5 @@
+module src.fibo;
+
 import std.stdio;
 
 // https://en.wikipedia.org/wiki/Fibonacci_sequence
