@@ -1,4 +1,4 @@
-Fibonacci series benchmark for several different languages, compilers and interpreters. Execution times measured with Luke Sampson's time utility (https://github.com/lukesampson/psutils). Compiled mainly with default settings.
+Fibonacci series benchmark for several different languages, compilers and interpreters. Execution times measured with Luke Sampson's time utility (https://github.com/lukesampson/psutils). Sources compiled mainly with the default settings.
 
 ### fibonacci(45) - AMD Ryzen 5 5600 (12) @ 3.500GHz - Win 11
 | Execution Time (s) | Compiler / Interpreter | Command Line / Options | Language | Source (bytes) | Compiled (bytes) |
