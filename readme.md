@@ -6,9 +6,10 @@ Fibonacci series benchmark for several different languages, compilers and interp
 | 0.14 | Nim 2.0.0 | nim c -d:release fibo.nim | Nim | 437 | 260618 |
 | 1.70 | Nim 2.0.0 | nim cpp -d:release fibo.nim | Nim | 437 | 192096 |
 | 4.61 | Go go1.21.2 windows/amd64 | go build fibo.go | Go | 492 | 1902592 |
+| 4.61 | G++ (MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders) 13.2.0 | g++ fibo.cpp | C++ | 418 | 55289 |
 | 4.81 | Odin dev-2023-10-nightly:2cca0050 | odin run fibo.odin -file | Odin | 530 | 382464 |
-| 4.86 | Tiny C Compiler 0.9.27 | tcc fibo.c | C | 546 | 2560 |
-| 4.89 | GCC (MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders) 13.2.0 | gcc fibo.c | C | 546 | 91669 |
+| 4.86 | Tiny C Compiler 0.9.27 | tcc fibo.c | C | 485 | 2560 |
+| 4.89 | GCC (MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders) 13.2.0 | gcc fibo.c | C | 485 | 91669 |
 | 4.95 | V 0.4.2 | v fibo.v | V | 443 | 682496 |
 | 5.25 | FreeBASIC 1.10.0 | fbc fibofb.bas | BASIC | 464 | 32768 |
 | 5.72 | Julia 1.9.3 | julia fibo.jl | Julia | 417 | - |
