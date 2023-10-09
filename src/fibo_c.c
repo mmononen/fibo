@@ -14,5 +14,5 @@ void main() {
 
     printf("Fibonacci Sequence Tool\n");
     printf("Copyright (c) 2023 Mikko Mononen\n");
-    printf("The Fibonacci number for %d is %d.", iValue, fibonacci(iValue));
+    printf("The Fibonacci number for %d is %d.\n", iValue, fibonacci(iValue));
 }
