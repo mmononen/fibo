@@ -18,4 +18,5 @@ Fibonacci series benchmark for several different languages, compilers and interp
 | 7.90 | Free Pascal 3.2.2 | fpc fibo.pas | Pascal | 572 | 50174 |
 | 11.72 | PyPy 7.3.13 with Python 3.10.13 | pypy fibo.py | Python | 394 | - |
 | 53.95 | QB64 2.1 | qb64 -c fiboqb64.bas | BASIC | 679 | 1976832 |
+| 61.97 | Lua 5.4.2 | lua fibo.lua | Lua | 422 | - |
 | 188.74 | Python 3.11.5 | python fibo.py | Python | 394 | - |
