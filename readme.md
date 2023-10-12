@@ -33,3 +33,16 @@ Fibonacci series benchmark for several different languages, compilers and interp
 | 9.05 | Free Pascal 3.2.2+dfsg-20 | fpc fibo.pas | Pascal | 552 | 191104 |
 | 64.08 | Lua 5.4.4 | lua fibo.lua | Lua | 409 | - |
 | 111.52 | Python 3.11.2 | python3 fibo.py | Python | 383 | - |
+
+### fibonacci(45) - AMD Ryzen 5 5600 (12) @ 3.500GHz - EndeavourOS
+| Execution Time (s) | Compiler / Interpreter | Command Line / Options | Language | Source (bytes) | Compiled (bytes) |
+| --- | --- | --- | --- | --- | --- |
+| 0.01 | Nim 2.0.0 | nim c -d:release fibo.nim | Nim | 424 | 87232 |
+| 1.25 | Nim 2.0.0 | nim cpp -d:release fibo.nim | Nim | 424 | 110224 |
+| 5.15 | GCC 13.2.1 | gcc fibo_c.c | C | 469 | 15504 |
+| 5.15 | G++ 13.2.1 | g++ fibo.cpp | C++ | 399 | 15896 |
+| 6.63 | FreeBASIC 1.10.0 | fbc fibofb.bas | BASIC | 451 | 44440 |
+| 6.74 | Crystal 1.9.2 | crystal build fibo.cr | Crystal | 384 | 1611664 |
+| 8.80 | Free Pascal 3.2.2 | fpc fibo.pas | Pascal | 552 | 191088 |
+| 66.73 | Lua 5.4.6 | lua fibo.lua | Lua | 409 | - |
+| 108.09 | Python 3.11.5 | python3 fibo.py | Python | 383 | - |
