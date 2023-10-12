@@ -39,6 +39,7 @@ Fibonacci series benchmark for several different languages, compilers and interp
 | --- | --- | --- | --- | --- | --- |
 | 0.01 | Nim 2.0.0 | nim c -d:release fibo.nim | Nim | 424 | 87232 |
 | 1.25 | Nim 2.0.0 | nim cpp -d:release fibo.nim | Nim | 424 | 110224 |
+| 5.08 | Odin dev-2023-10 | odin run fibo.odin -file | Odin | 511 | 290440 |
 | 5.15 | GCC 13.2.1 | gcc fibo_c.c | C | 469 | 15504 |
 | 5.15 | G++ 13.2.1 | g++ fibo.cpp | C++ | 399 | 15896 |
 | 6.63 | FreeBASIC 1.10.0 | fbc fibofb.bas | BASIC | 451 | 44440 |
