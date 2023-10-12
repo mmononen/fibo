@@ -40,10 +40,12 @@ Fibonacci series benchmark for several different languages, compilers and interp
 | 0.01 | Nim 2.0.0 | nim c -d:release fibo.nim | Nim | 424 | 87232 |
 | 1.25 | Nim 2.0.0 | nim cpp -d:release fibo.nim | Nim | 424 | 110224 |
 | 4.25 | Crystal 1.9.2 | crystal build fibo.cr --release | Crystal | 384 | 668712 |
+| 4.40 | Julia 1.9.3 | julia fibo.jl | Julia | 403 | - |
 | 5.08 | Odin dev-2023-10 | odin run fibo.odin -file | Odin | 511 | 290440 |
 | 5.15 | GCC 13.2.1 | gcc fibo_c.c | C | 469 | 15504 |
 | 5.15 | G++ 13.2.1 | g++ fibo.cpp | C++ | 399 | 15896 |
 | 5.54 | Tiny C Compiler 0.9.27 | tcc fibo_c.c | C | 469 | 2927 |
+| 6.54 | jBallerina 1.2.11 | ballerina build fibo.bal | Ballerina | 562 | 9172763 |
 | 6.63 | FreeBASIC 1.10.0 | fbc fibofb.bas | BASIC | 451 | 44440 |
 | 6.74 | Crystal 1.9.2 | crystal build fibo.cr | Crystal | 384 | 1611664 |
 | 8.80 | Free Pascal 3.2.2 | fpc fibo.pas | Pascal | 552 | 191088 |
