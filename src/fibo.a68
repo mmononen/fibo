@@ -1,0 +1,10 @@
+# https://en.wikipedia.org/wiki/Fibonacci_sequence #
+PROC fibonacci = (INT x)INT:
+    IF x > 1 THEN (fibonacci(x - 1) + fibonacci(x - 2)) ELSE x FI;
+
+# Adjust this value according to cpu speed to get reasonable results #
+INT ivalue := 45;
+
+print(("Fibonacci Sequence Tool", newline));
+print(("Copyright (c) 2023 Mikko Mononen", newline));
+print(("The Fibonacci number for ", ivalue, " is ", fibonacci(ivalue), ".", newline))
