@@ -1,6 +1,6 @@
 Fibonacci series benchmark for several different languages, compilers and interpreters. Execution times measured with Luke Sampson's time utility (https://github.com/lukesampson/psutils). Sources compiled mainly with the default settings.
 
-### fibonacci(45)
+### fibonacci(45) - execution times in seconds
 | Compiler / Interpreter | Debian 12 (WSL) | EndeavourOS | Win 11 |
 | --- | --- | --- | --- |
 | Algol 68 Genie 3.2.1         |        | 401.97 |        |
@@ -35,6 +35,7 @@ Fibonacci series benchmark for several different languages, compilers and interp
 | Python 3.11.2                | 111.52 |        |        |
 | Python 3.11.5                |        | 108.09 | 188.74 |
 | QB64 2.1                     |        |        |  53.95 |
+| Ruby 3.0.6p216               |        |  85.86 |        |
 | Rust 1.73.0                  |        |   7.15 |   6.99 |
 | Tiny C Compiler 0.9.27       |        |   5.54 |   4.86 |
 | V 0.4.2                      |        |        |   4.95 |
