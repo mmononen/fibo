@@ -6,10 +6,10 @@ fun fibonacci(x: Int): Int {
     }
 }
 
-fun main(args : Array<String>) {
+fun main() {
     var iValue = 45
 
     println("Fibonacci Sequence Tool")
     println("Copyright (c) 2023 Mikko Mononen")
-    println("The Fibonacci number for $iValue is $fibonacci(iValue).")
+    println("The Fibonacci number for $iValue is ${fibonacci(iValue)}.")
 }

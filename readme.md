@@ -29,6 +29,7 @@ Fibonacci series benchmark for several different languages, compilers and interp
 | Go 1.21.3                     |        |   4.78 |        |
 | Java 1.8.0_382                |   2.71 |   2.77 |        |
 | Julia 1.9.3                   |        |   4.40 |   5.72 |
+| Kotlin 1.9.10                 |        |   2.76 |        |
 | Lua 5.4.2                     |        |        |  61.97 |
 | Lua 5.4.4                     |  64.08 |        |        |
 | Lua 5.4.6                     |        |  66.73 |        |
