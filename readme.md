@@ -1,4 +1,4 @@
-Fibonacci series benchmark for several different languages, compilers and interpreters. Execution times measured with Luke Sampson's time utility (https://github.com/lukesampson/psutils). Sources compiled mainly with the default settings.
+Fibonacci series benchmark for several different languages, compilers and interpreters. Execution times were measured with time command on Linux & WSL, and Luke Sampson's time utility (https://github.com/lukesampson/psutils) on Windows. Sources compiled mainly with the default settings.
 
 ### fibonacci(45) - execution times in seconds on Ryzen 5 5600 @ 3.5 GHz
 | Compiler / Interpreter | Debian 12 (WSL) | EndeavourOS | Win 11 |
@@ -9,8 +9,10 @@ Fibonacci series benchmark for several different languages, compilers and interp
 | Crystal 1.9.2                 |        |   6.74 |        |
 | Crystal 1.9.2 (--release)     |        |   4.25 |        |
 | Dart 3.0.7                    |        |   6.72 |        |
+| Dart 3.1.3                    |        |        |   6.85 |
 | DMD64 D Compiler 2.105.2      |        |  13.98 |   7.68 |
 | Elixir 1.15.6 (Erlang/OTP 26) |        |   9.81 |        |
+| Elixir 1.16.7 (Erlang/OTP 24) |        |        |   9.75 |
 | FreeBASIC 1.10.0              |        |   6.63 |   5.25 |
 | Free Pascal 3.2.2             |   9.05 |   8.80 |   7.90 |
 | Gnu G++ 12.2.0                |   4.87 |        |        |
