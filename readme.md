@@ -14,6 +14,7 @@ Fibonacci series benchmark for several different languages, compilers and interp
 | DMD64 D Compiler 2.105.2      |        |  13.98 |   7.68 |
 | Elixir 1.14.0 (Erlang/OTP 24) |   9.07 |        |        |
 | Elixir 1.15.6 (Erlang/OTP 26) |        |   9.81 |        |
+| Elixir 1.15.7 (Erlang/OTP 26) |        |   9.79 |        |
 | Elixir 1.16.7 (Erlang/OTP 24) |        |        |   9.75 |
 | FreeBASIC 1.10.0              |        |   6.63 |   5.25 |
 | Free Pascal 3.2.2             |   9.05 |   8.80 |   7.90 |
@@ -26,7 +27,7 @@ Fibonacci series benchmark for several different languages, compilers and interp
 | Go 1.19.8                     |   4.76 |        |        |
 | Go 1.21.2                     |        |        |   4.61 |
 | Go 1.21.3                     |        |   4.78 |        |
-| Java 1.8.0_382                |   2.71 |        |        |
+| Java 1.8.0_382                |   2.71 |   2.77 |        |
 | Julia 1.9.3                   |        |   4.40 |   5.72 |
 | Lua 5.4.2                     |        |        |  61.97 |
 | Lua 5.4.4                     |  64.08 |        |        |
