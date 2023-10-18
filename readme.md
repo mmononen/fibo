@@ -2,9 +2,10 @@ Fibonacci series benchmark for several different languages, compilers and interp
 
 ### fibonacci(45) - execution times in seconds on Ryzen 5 5600 @ 3.5 GHz
 | Compiler / Interpreter | Debian 12 (WSL) | EndeavourOS | Win 11 |
-| --- | --- | --- | --- |
+| ----------------------------- | ------ | ------ | ------ |
 | Algol 68 Genie 3.1.2          | 449.06 |        |        |
 | Algol 68 Genie 3.2.1          |        | 401.97 |        |
+| Algol 68 Genie 3.4.2          |        | 399.16 |        |
 | Ballerina 1.2.11              |        |   6.54 |        |
 | Crystal 1.6.0                 |   6.09 |        |        |
 | Crystal 1.9.2                 |        |   6.74 |        |
