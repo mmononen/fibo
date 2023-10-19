@@ -11,6 +11,8 @@ Fibonacci series benchmark for several different languages, compilers and interp
 | Crystal 1.6.0                    |   6.09 |        |        |
 | Crystal 1.9.2                    |        |   6.74 |        |
 | Crystal 1.9.2 (--release)        |        |   4.25 |        |
+| Crystal 1.10.0                   |        |   6.74 |        |
+| Crystal 1.10.0 (--release)       |        |   4.25 |        |
 | Dart 3.0.7                       |        |   6.72 |        |
 | Dart 3.1.3                       |        |        |   6.85 |
 | DMD64 D Compiler 2.105.2         |        |  13.98 |   7.68 |
