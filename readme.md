@@ -7,6 +7,7 @@ Fibonacci series benchmark for several different languages, compilers and interp
 | Algol 68 Genie 3.2.1             |        | 401.97 |        |
 | Algol 68 Genie 3.4.2             |        | 399.16 |        |
 | Algol 68 Genie 3.4.2 (--compile) |        | 258.28 |        |
+| Algol 68 Genie 3.4.4             |        |        | 779.97 |
 | Ballerina 1.2.11                 |        |   6.54 |        |
 | Crystal 1.6.0                    |   6.09 |        |        |
 | Crystal 1.9.2                    |        |   6.74 |        |
@@ -15,6 +16,7 @@ Fibonacci series benchmark for several different languages, compilers and interp
 | Crystal 1.10.0 (--release)       |        |   4.25 |        |
 | Dart 3.0.7                       |        |   6.72 |        |
 | Dart 3.1.3                       |        |        |   6.85 |
+| Dart 3.1.5                       |        |        |   6.83 |
 | DMD64 D Compiler 2.105.2         |        |  13.98 |   7.68 |
 | Elixir 1.14.0 (Erlang/OTP 24)    |   9.07 |        |        |
 | Elixir 1.15.6 (Erlang/OTP 26)    |        |   9.81 |        |
