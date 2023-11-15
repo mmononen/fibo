@@ -63,5 +63,5 @@ Fibonacci series benchmark for several different languages, compilers and interp
 | Rust 1.73.0                      |        |   7.15 |   6.99 |
 | Tiny C Compiler 0.9.27           |        |   5.54 |   4.86 |
 | V 0.4.2                          |        |        |   4.95 |
-| V 0.4.3                          |        |        |   5.05 |
+| V 0.4.3                          |        |   5.37 |   5.05 |
 | Zig 0.11.0                       |        |   7.39 |   7.86 |
